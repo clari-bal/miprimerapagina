@@ -1,0 +1,72 @@
+body {
+  color: #D4D2D5;
+  background-color: #2A1F2D;
+  font-family: "Cambria";
+}
+
+h1 {
+    color: #3B2C35;
+    background-color: #B4CDED;
+    font-family: "Montserrat";
+    font-size:36px;
+    text-align: center;
+    padding: 15px;
+}
+
+p {
+    font-family: "Georgia";
+    font-size:18px;
+    padding: 10px;
+    margin: 20px;
+}
+
+h2 {
+    color: #EA9010;
+    background-color: ;
+}
+
+.box {
+    background-color: #2E2D4D;
+    width: 300px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid #B4CDED; 
+    border-radius: 1rem;
+    margin: 50px; 
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+
+/* rgb(206,100,112) */
+/* 3B2C35 raisin black */
+/* 2A1F2D dark purple */
+/* D4D2D5 timberwolf */
+/* F0F4EF baby powder */
+/* B4CDED powder blue */
+/* EA9010 carrot orange */
+/* F3B700 amber */
+/* EBCBF4 thistle */
+/* 2E2D4D space cadet */
+/* CCFF66 green yellow */

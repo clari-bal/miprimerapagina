@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Bienvenidos a mi primer Website!</h1>
+
+      <p>Soy Clari, ¡y esta es mi primera página web!</p>
+
+      <p>
+        Estoy aprendiendo desarrollo web para crear sitios web visualmente
+        atrapantes y funcionales.
+      </p>
+
+      <p>
+        A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+        Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web
+        front-end.
+      </p>
+      <div class="row">
+        <div class="column">
+          <h2>Acerca de mí</h2>
+          <p>Vivo en Mendoza con mi gata Merlina</p>
+        </div>
+        <div class="column">
+          <h2>Contacto</h2>
+          <ul>
+            <li>clarisabaldearena@gmail.com</li>
+            <li>linkedin.com/in/claribaldearena</li>
+          </ul>
+        </div>
+
+        <button onclick="showAlert()">¡Click aquí!</button>
+      </div>
+
+      <div class="box">
+        <p>Contenido de la caja</p>
+      </div>
+    
+
+    <form id="myForm">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required />
+      <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Formulario de contacto</h2>
+    <form id="myForm">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required /><br/><br/>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /> <br/> <br/>
+
+      <label for="message">Mensaje:</label><br />
+      <textarea id="message" name="message" rows="5" required></textarea
+      ><br/><br/>
+
+      <input type="submit" value="Enviar formulario" />
+    </form>
+</div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
