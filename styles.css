@@ -58,6 +58,9 @@ h2 {
     }
   }
 
+  .greeting {
+    text-align: center;
+  }
 
 /* rgb(206,100,112) */
 /* 3B2C35 raisin black */
